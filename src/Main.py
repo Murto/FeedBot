@@ -23,8 +23,8 @@ async def ping():
 @bot.command()
 async def github():
   githubFile = open("data/github.txt")
-  url = githubFile.read().strip()
-  await bot.say("Github: %s" % url)
+  text = githubFile.read()
+  await bot.say(text)
 
 
 tokenFile = open("data/token.txt")
