@@ -27,7 +27,7 @@ async def github():
   await bot.say("Github: %s" % url)
 
 
-tokenFile = open("token/token.txt")
+tokenFile = open("data/token.txt")
 if (not tokenFile):
   print("Token could not be read, exiting...")
 else:
