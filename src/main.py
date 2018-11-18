@@ -44,7 +44,7 @@ async def feed(ctx, source=None, calendar=None):
     await utils.sendFailureMessage(title="Unknown", description=usageText, sendFun=bot.say, delFun=bot.delete_message, selfDestruct=False)
 
 
-tokenFile = open("data/token.txt")
+tokenFile = open("data/discord/token.txt")
 if (not tokenFile):
   print("Token could not be read, exiting...")
 else:
