@@ -1,0 +1,3 @@
+class ReporteeHandle(ReceiverHandle):
+  pass
+
