@@ -1,2 +1,5 @@
 class ContentProvider:
-  pass
+  
+  def getContent(self, name):
+    pass
+
