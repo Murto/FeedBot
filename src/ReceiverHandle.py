@@ -1,4 +1,4 @@
 class ReceiverHandle:
 
-  def send(self, text):
+  def send(self, sendable):
     pass
