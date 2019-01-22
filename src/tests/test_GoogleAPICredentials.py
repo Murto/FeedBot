@@ -16,9 +16,5 @@ class GoogleAPICredentialsTest(unittest.TestCase):
     self.assertEqual(creds.get_token_path(), self.TOKEN_PATH, msg = "Incorrect token path")
 
 
-def main():
-  unittest.main()
-
-
 if (__name__ == "__main__"):
-  main()
+  unittest.main()
