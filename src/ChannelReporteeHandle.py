@@ -10,7 +10,7 @@ class ChannelReporteeHandle(ReporteeHandle):
   def __init__(self, channel : Channel) -> NoReturn:
     self.channel = channel
 
-  def getChannel(self) -> Channel:
+  def get_channel(self) -> Channel:
     return self.channel
 
   def send(self, sendable : Union[str, Embed]) -> NoReturn:

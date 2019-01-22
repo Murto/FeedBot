@@ -2,8 +2,8 @@ from typing import List
 
 class ScheduleProvider:
   
-  def getSchedule(self) -> List[ScheduleEvent]:
+  def get_schedule(self) -> List[ScheduleEvent]:
     pass
 
-  def getNextScheduled(self, num : int = 1) -> ScheduleEvent:
+  def get_next_scheduled(self, num : int = 1) -> ScheduleEvent:
     pass

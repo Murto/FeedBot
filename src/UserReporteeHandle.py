@@ -8,7 +8,7 @@ class UserReporteeHandle(ReporteeHandle):
   def __init__(self, user) -> NoReturn:
     self.user = user
 
-  def getUser(self) -> User:
+  def get_user(self) -> User:
     return self.user
 
   def send(self, sendable : Union[str, Embed]) -> NoReturn:
