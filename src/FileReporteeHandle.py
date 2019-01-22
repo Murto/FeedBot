@@ -1,7 +1,8 @@
+from ReporteeHandle import ReporteeHandle
 from typing import NoReturn
 
 
-class FileReporteeHandle:
+class FileReporteeHandle(ReporteeHandle):
 
   def __init__(self, filename : str) -> NoReturn:
     self.filename = filename
